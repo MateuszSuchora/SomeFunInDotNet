@@ -1,0 +1,32 @@
+-- Zapropnuj zapytanie umożliwiające pobranie danych o: 
+-- - pacjentach przyjętych w ciągu określonego przedziału czasu - jako wynik podaj ERP, imię i
+-- nazwisko pacjenta oraz datę przyjęcia do placówki. Dane posortuj po dacie przyjęcia do placówki 
+SELECT "ERP_number", name, surname, date_of_admission
+	FROM public.patients
+	JOIN public.visits ON visits.patient_erp = patients."ERP_number"
+	WHERE visits.date_of_admission > '2021-01-01'::date AND visits.date_of_admission < '2022-01-01'::date
+	ORDER BY date_of_admission
+
+-- ilości wykonanych testów - jako wynik podaj kod testu oraz z liczbę wskazującą na ilość
+-- wykonanych testów. Dane posortuj po ilości wykonanych testów 
+SELECT tests.id AS kod_testu, count(test_results.id) AS ilosc_testow 
+FROM public.tests
+JOIN public.samples ON samples.test_id = tests.id
+JOIN public.test_results ON test_results.sample_id = samples.id
+GROUP BY tests.id
+Order BY ilosc_testow
+
+-- danych adresowych pracownika o podanym numerze legitymacji
+SELECT country, city, street, house_number, apartment_number, postal, doctors.id AS employee_id
+FROM public.doctors
+JOIN public.adresses ON doctors.adress_id = adresses.id
+UNION All
+SELECT country, city, street, house_number, apartment_number, postal, technicians.id AS employee_id
+FROM public.technicians
+JOIN public.adresses ON technicians.adress_id = adresses.id
+
+-- danych adresowaych pacjenta o podanym ERP 
+SELECT country, city, street, house_number, apartment_number, postal
+FROM public.patients
+JOIN public.adresses ON patients.adress_id = adresses.id
+WHERE "ERP_number" = 12 

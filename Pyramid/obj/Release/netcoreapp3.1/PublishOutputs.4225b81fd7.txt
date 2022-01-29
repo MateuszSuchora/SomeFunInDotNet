@@ -1,0 +1,5 @@
+C:\Users\matie\source\repos\Pyramid\Pyramid.exe
+C:\Users\matie\source\repos\Pyramid\Pyramid.dll
+C:\Users\matie\source\repos\Pyramid\Pyramid.deps.json
+C:\Users\matie\source\repos\Pyramid\Pyramid.runtimeconfig.json
+C:\Users\matie\source\repos\Pyramid\Pyramid.pdb

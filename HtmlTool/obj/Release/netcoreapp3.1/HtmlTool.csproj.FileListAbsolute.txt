@@ -1,0 +1,14 @@
+C:\Users\matie\source\repos\HtmlTool\bin\Release\netcoreapp3.1\HtmlTool.exe
+C:\Users\matie\source\repos\HtmlTool\bin\Release\netcoreapp3.1\HtmlTool.deps.json
+C:\Users\matie\source\repos\HtmlTool\bin\Release\netcoreapp3.1\HtmlTool.runtimeconfig.json
+C:\Users\matie\source\repos\HtmlTool\bin\Release\netcoreapp3.1\HtmlTool.runtimeconfig.dev.json
+C:\Users\matie\source\repos\HtmlTool\bin\Release\netcoreapp3.1\HtmlTool.dll
+C:\Users\matie\source\repos\HtmlTool\bin\Release\netcoreapp3.1\HtmlTool.pdb
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.csproj.AssemblyReference.cache
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.AssemblyInfoInputs.cache
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.AssemblyInfo.cs
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.csproj.CoreCompileInputs.cache
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.dll
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.pdb
+C:\Users\matie\source\repos\HtmlTool\obj\Release\netcoreapp3.1\HtmlTool.genruntimeconfig.cache
